@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {AppRegistry, StyleSheet, Text, View, Platform} from 'react-native';
+import ListViewBasics from '../Components/ListViewBasics';
 
 export class App extends Component {
     render() {
@@ -8,6 +9,7 @@ export class App extends Component {
                 <Text style={styles.welcome}>
                     Hello Conan! This is {Platform.OS} view!!!
                 </Text>
+                <ListViewBasics/>
             </View>
         );
     }
